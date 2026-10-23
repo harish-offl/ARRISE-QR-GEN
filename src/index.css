@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Arrise QR Generation Brand */
+    --brand-primary: #059669;
+    --brand-accent: #34D399;
+    --brand-background: #0D0D0D;
+    --brand-text: #ECFDF5;
+
+    /* Application Surfaces */
+    --color-background: #0D0D0D;
+    --color-surface: #171717;
+    --color-surface-elevated: #202020;
+    --color-border: #333333;
+
+    /* Typography */
+    --color-text-primary: #ECFDF5;
+    --color-text-muted: #B3B3B3;
+
+    /* Interaction */
+    --color-primary: var(--brand-primary);
+    --color-primary-hover: #047857;
+    --color-primary-active: #065F46;
+    --color-accent: var(--brand-accent);
+    --color-focus: #059669;
+
+    /* Supporting Tokens */
+    --color-input-background: #171717;
+    --color-input-border: #333333;
+    --color-disabled-background: #202020;
+    --color-disabled-text: #B3B3B3;
+
+    /* Effects */
+    --shadow-card: 0 4px 16px rgb(0 0 0 / 20%);
+    --shadow-elevated: 0 8px 28px rgb(0 0 0 / 35%);
+
+    /* Focus Accessibility */
+    --focus-ring: 0 0 0 3px rgb(5 150 105 / 30%);
+  }
+}
